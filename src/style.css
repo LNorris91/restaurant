@@ -2,7 +2,10 @@
     font-family: 'myFont';
     src: url('./Environment.otf');
 }
-
+* {
+    font-family: 'myFont', sans-serif;
+    box-sizing: border-box;
+}
 body {
     width: 100vw;
     height: 100vh;
@@ -10,7 +13,6 @@ body {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
-    font-family: 'myFont', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +28,7 @@ nav {
 }
 
 nav button {
-    font: 35px 'myFont', sans-serif;
+    font-size: 35px;
     color: aliceblue;
     background: none;
     border-style: none;
@@ -37,13 +39,37 @@ nav button:hover {
     border-bottom: 1px solid aliceblue;
 }
 
-footer, a {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
     height: 50px;
     border-top: 2px solid rgb(118, 118, 118);
+}
+footer a {
     text-decoration: none;
+    color:aliceblue
 }
 
+.homeDiv {
+    height: 200px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTitle {
+    font-size: 5rem;
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
+@media (max-width: 800px) {
+    .homeTitle {
+        font-size: 2.8rem;
+    }
+}

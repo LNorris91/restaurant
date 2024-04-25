@@ -32,6 +32,7 @@ export default function loadMenu() {
 
     for (let item of MenuItems){
         let option = document.createElement('div')
+        option.classList = "item"
         let n = document.createElement('div');
         n.textContent = item.name;
         n.classList = "n"

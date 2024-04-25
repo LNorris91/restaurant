@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('./Environment.otf');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(./Kitchen.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    font-family: 'myFont', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid rgb(118, 118, 118);
+    background: rgb(0, 0, 0, 0.2);
+}
+
+nav button {
+    font: 35px 'myFont', sans-serif;
+    color: aliceblue;
+    background: none;
+    border-style: none;
+}
+
+nav button:hover {
+    cursor: pointer;
+    border-bottom: 1px solid aliceblue;
+}
+
+footer, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 50px;
+    border-top: 2px solid rgb(118, 118, 118);
+    text-decoration: none;
+}
+

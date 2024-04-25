@@ -11,19 +11,19 @@ export default function loadMenu() {
 
     let MenuItems = [
         {
-            name: "Cook a Meal",
-            description: "You're an adult, get creative!",
+            name: "-Cook a Meal-",
+            description: "You're an adult, get creative",
             price: "$ a little time and effort"
         },
         {
-            name: "Order In",
-            description: "Feeling lazy? Low on groceries? We've all been there. Order something in!",
-            price: "$ ever increasing"
+            name: "-Order In-",
+            description: "Feeling lazy? Low on groceries? We've all been there. Order something in",
+            price: "$ ever increasing price"
         },
         {
-            name: "Eat Out",
+            name: "-Eat Out-",
             description: "Treat yourself to an experience and let a stranger not only cook your food, but bring it to you, and clean up after you",
-            price: "$ the most, and don't forget to tip"
+            price: "$ the most expensive, and don't forget to tip"
         }
     ];
 
